@@ -14,11 +14,22 @@ body {
 	height: 400px;
 	text-align: center;
 	float: left;
-	margin: 0 100px;
+	margin: 0 150px;
 }
+
 #carousel{
-	margin-left: 120px;
+	margin-left: 70px;
 	height: 80%;
 	width: 400px;
-	overflow: unset;
+	display: flex;
+	align-content: center;
 }
+
+.wrap {
+	overflow: hidden;
+}
+
+.glyphicon, .fa {
+	color: white;
+}
+

@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <!-- Optional theme -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://use.fontawesome.com/90a60766bc.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<title>Carousel</title>
 </head>
@@ -18,17 +19,35 @@
 				<img class="title" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/BoJack_Horseman_Logo.svg/1200px-BoJack_Horseman_Logo.svg.png" alt="">
 			</div>
 		</div>
-		<div class="row">
+		<div class="row wrap">
 			<div id="carousel">
 				<img class="imgs 1" src="https://i.ytimg.com/vi/i1eJMig5Ik4/maxresdefault.jpg" alt="">
 				<img class="imgs 2" src="http://www.puntowasabi.com/wp-content/uploads/2016/04/intro-bojack.jpg" alt="">
 				<img class="imgs 3" src="https://cdn.vox-cdn.com/thumbor/LJ2YWQX4iQSh7PfzHBtJMnfcEc4=/0x0:1920x1080/1600x900/cdn.vox-cdn.com/uploads/chorus_image/image/56345005/BoJack_Horseman_S03E07_4m13s506f.1503589368.jpeg" alt="">
-				<img class="imgs 4" src="http://vignette3.wikia.nocookie.net/bojackhorseman/images/e/e9/Bojack_Horseman_Season_3.png/revision/latest?cb=20161031211857" alt="">
-				<img class="imgs 5" src="http://cdn2us.denofgeek.com/sites/denofgeekus/files/2017/08/bojack-horseman-jpm-1-11-a.png" alt="">
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-12"></div>
+			<div class="col-md-4 btn-lg">
+				<a class="btn-lg" id="left" href="#!">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				</a>
+			</div>
+			<div class="col-md-4">
+				<a href="#!" class="btn">
+					<i class="fa fa-circle-thin" aria-hidden="true"></i>
+				</a>
+				<a href="#!" class="btn">
+					<i class="fa fa-circle-thin" aria-hidden="true"></i>
+				</a>
+				<a href="#!" class="btn">
+					<i class="fa fa-circle-thin" aria-hidden="true"></i>
+				</a>
+			</div>
+			<div class="col-md-4 btn-lg">
+				<a class="btn-lg" id="right" href="#!">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				</a>
+			</div>
 		</div>
 	</div>
 
