@@ -1,7 +1,6 @@
 $(document).ready(()=>{
- $("#carousel").width($(window).width() * 5);
+ $("#carousel").width($(window).width() * 2);
 });
-
 
 
 	var btnl = $("#left")
